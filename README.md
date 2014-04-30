@@ -14,9 +14,6 @@ A simple R script to merge, clean, and summarize the [Human Activity Recognition
 
 Written for the April 2014 [Getting and Cleaning Data](https://class.coursera.org/getdata-002) course offered by Johns Hopkins University through [Coursera](http://www.coursera.org).
 
-## Dependencies
-
-Requires the data.table (version 1.9.2) and reshape2 R packages.
 
 ## Usage
 
