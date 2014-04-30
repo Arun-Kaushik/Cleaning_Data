@@ -40,8 +40,6 @@ After running, the merged data can be referenced through the `mergedData` variab
 1. Combines the training and test feature (X\_train.txt and X\_text.txt) data from the UCI HAR Dataset directory into one data.table, `mergedData`.
   - The Inertial Signals data is not used.
 1. Applies the names in features.txt to the columns of `mergedData`.
-1. Discards the columns that do not contain **mean()** and **std()** in their name.
-  - **Note: meanFreq() columns are not kept.**
 1. Adds two columns to `mergedData`
   1. activity - from y\_train.txt and y\_test.txt files. 
   1. subject.id - subject\_train.txt and subject\_test.txt files.
